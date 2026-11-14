@@ -1,0 +1,15 @@
+{
+  "name": "priortrail",
+  "version": "0.1.0",
+  "description": "Connect Codex to PriorTrail and work its queue: pull the next item from any station, do it and submit it.",
+  "author": { "name": "PriorTrail", "url": "https://priortrail.com" },
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "PriorTrail",
+    "category": "Productivity",
+    "defaultPrompt": "Work PriorTrail's queue."
+  },
+  "websiteURL": "https://priortrail.com"
+}

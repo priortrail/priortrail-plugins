@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "priortrail": {
+      "type": "http",
+      "url": "https://priortrail.com/mcp"
+    }
+  }
+}

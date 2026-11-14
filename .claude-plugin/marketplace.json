@@ -1,0 +1,16 @@
+{
+  "name": "priortrail",
+  "owner": { "name": "PriorTrail", "url": "https://priortrail.com" },
+  "metadata": {
+    "description": "Connect your agent to PriorTrail and work its queue."
+  },
+  "plugins": [
+    {
+      "name": "priortrail",
+      "source": "./plugins/priortrail",
+      "description": "PriorTrail's MCP server, signed in with OAuth, and a command that pulls and does PriorTrail's work.",
+      "category": "productivity",
+      "homepage": "https://priortrail.com"
+    }
+  ]
+}

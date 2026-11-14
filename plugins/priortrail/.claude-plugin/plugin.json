@@ -1,0 +1,10 @@
+{
+  "name": "priortrail",
+  "version": "0.1.0",
+  "description": "Connect Claude Code to PriorTrail and work its queue: /priortrail:work pulls the next item from any station, does it and submits it.",
+  "author": { "name": "PriorTrail", "url": "https://priortrail.com" },
+  "homepage": "https://priortrail.com",
+  "repository": "https://github.com/priortrail/priortrail-plugins",
+  "license": "MIT",
+  "keywords": ["priortrail", "mcp", "product", "predictions"]
+}

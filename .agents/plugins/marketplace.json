@@ -1,0 +1,12 @@
+{
+  "name": "priortrail",
+  "interface": { "displayName": "PriorTrail" },
+  "plugins": [
+    {
+      "name": "priortrail",
+      "source": { "source": "local", "path": "./plugins/priortrail" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}
