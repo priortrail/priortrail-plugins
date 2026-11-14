@@ -11,7 +11,7 @@ Connect Claude Code or Codex to [PriorTrail](https://priortrail.com) and work it
 
 Then `/mcp`, pick `priortrail` and Authenticate: the browser opens PriorTrail, where you pick the workspace and allow the agent. Start with `/priortrail:work`, or `/priortrail:work frame` for one station.
 
-Without the plugin: `claude mcp add --transport http priortrail https://priortrail.com/mcp`, then `/mcp__priortrail__work`.
+Without the plugin: `claude mcp add --transport http --scope user priortrail https://priortrail.com/mcp`, then `/mcp__priortrail__work`.
 
 ## Codex
 
