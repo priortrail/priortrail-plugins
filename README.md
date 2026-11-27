@@ -22,7 +22,7 @@ Without the plugin: `codex mcp add priortrail --url https://priortrail.com/mcp`,
 ## What it is
 
 - `plugins/priortrail/.mcp.json`: PriorTrail's MCP server at `https://priortrail.com/mcp`. It signs in with OAuth, so there is no token to paste.
-- `plugins/priortrail/skills/priortrail`: how to work the queue (lease, read, do, submit, release, ask a person).
+- `plugins/priortrail/skills/priortrail`: a pointer at the server's own `work` skill (`skill://priortrail/work/SKILL.md`), its `work` prompt and its instructions. `node scripts/check-skill.mjs`, run in CI, keeps it a pointer.
 - `plugins/priortrail/commands/work.md`: `/priortrail:work` in Claude Code.
 
-The server itself teaches the work too: it offers the prompt `work` and says how in its instructions, so any MCP client works without a plugin.
+The server teaches the work itself: its skills as `skill://priortrail/...` resources (the `work` skill, one per station with its output schema and approved rules, and a profile's own), the prompt `work` and its instructions, so any MCP client works without a plugin.
